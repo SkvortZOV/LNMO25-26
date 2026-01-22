@@ -1,0 +1,5 @@
+stroka = input("")
+a = stroka.lower().replace('.', '').replace(',', '').split()
+b = set(a)
+b_count = len(b)
+print(b_count)
